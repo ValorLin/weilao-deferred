@@ -1,7 +1,6 @@
-easy-deferred
+Easy Deferred
 =============
-
-JS easy deferred without jQuery.
+Using Deferred() without jQuery.
 
 [DEMO](http://weilao.github.io/easy-deferred/demo.html)
 
