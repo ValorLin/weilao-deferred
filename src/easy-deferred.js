@@ -1,4 +1,5 @@
-;(function (_window) {
+;
+(function (_window) {
 
     _window.Deferred = function () {
         var self, successCbs, failCbs, alwaysCbs, status,
@@ -8,8 +9,8 @@
         successCbs = [];
         failCbs = [];
         alwaysCbs = [];
-        status = 'waiting';
         result = [];
+        status = 'waiting';
 
         createDeferredFn = function (invokeStatus, cbs) {
             return function (fn) {
@@ -24,12 +25,14 @@
 
         createInvokeFn = function (newStatus, cbs) {
             return function () {
-                var args = arguments;
+                var result, allCb;
+                result = arguments;
+                allCb = [];
                 status = newStatus;
-                var allCb = alwaysCbs.apply(alwaysCbs, cbs);
+                allCb.push.apply(allCb, cbs);
+                allCb.push.apply(allCb, alwaysCbs);
                 allCb.forEach(function (cb) {
-                    cb.apply(self, args);
-                    result = args;
+                    cb.apply(self, result);
                 });
             };
         };
