@@ -9,7 +9,7 @@ How to use
 ```js
 (function () {
 
-    // Define an async function with using Deferred()
+    // Define an async function using Deferred()
     function getResponseTextAsync() {
         var defer = Deferred();
         setTimeout(function () {
