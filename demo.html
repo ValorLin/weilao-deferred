@@ -6,6 +6,32 @@
     <script type="text/javascript" src="src/easy-deferred.js"></script>
 </head>
 <body>
+<pre>
+    (function () {
+
+        // Setup a async function with using Deferred()
+        function getResponseTextAsync() {
+            var defer = Deferred();
+            setTimeout(function () {
+                if (Math.random() > 0.5) {
+                    defer.resolve('Response Text');
+                } else {
+                    defer.reject('Fail Response!');
+                }
+            }, 1000);
+            return defer;
+        }
+
+        // Usage
+        getResponseTextAsync()
+                .done(alert)
+                .fail(alert)
+                .always(function () {
+                    alert('Always~');
+                });
+
+    })();
+</pre>
 <script type="text/javascript">
     (function () {
 
