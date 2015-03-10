@@ -1,15 +1,15 @@
 {
-  "name": "easy-deferred",
+  "name": "weilao-deferred",
   "description": "Using Deferred() without jQuery.",
   "version": "0.1.0",
   "homepage": "",
   "author": "Weilao <qqq123026689@126.com> (https://github.com/weilao)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/weilao/easy-deferred.git"
+    "url": "git://github.com/weilao/weilao-deferred.git"
   },
   "bugs": {
-    "url": "https://github.com/weilao/easy-deferred/issues"
+    "url": "https://github.com/weilao/weilao-deferred/issues"
   },
   "licenses": [
     {
