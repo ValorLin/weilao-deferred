@@ -1,6 +1,6 @@
 {
   "name": "weilao-deferred",
-  "description": "Using Deferred() without jQuery.",
+  "description": "Just like jQuery.deferred() but smaller.",
   "version": "0.1.0",
   "homepage": "",
   "author": "Weilao <qqq123026689@126.com> (https://github.com/weilao)",
