@@ -1,6 +1,6 @@
-Easy Deferred
+Weilao Deferred
 =============
-Using Deferred() without jQuery.
+Just like jQuery.deferred() but smaller.
 
 [DEMO](http://weilao.github.io/easy-deferred/demo.html)
 
