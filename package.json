@@ -24,6 +24,6 @@
     "deferred",
     "no jquery"
   ],
-  "main": "src/easy-deferred.js",
+  "main": "src/weilao-deferred.js",
   "license": "MIT"
 }
