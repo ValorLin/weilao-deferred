@@ -2,7 +2,7 @@ Weilao Deferred
 =============
 Just like jQuery.deferred() but smaller.
 
-[DEMO](http://weilao.github.io/easy-deferred/demo.html)
+[DEMO](http://weilao.github.io/weilao-deferred/demo.html)
 
 How to use
 ```js
