@@ -31,3 +31,7 @@ How to use
 
 })();
 ```
+
+## Compatibility
+IE9+
+With [ieBetter](https://github.com/zhangxinxu/ieBetter.js) it would work in IE8-
