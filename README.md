@@ -35,3 +35,6 @@ How to use
 ## Compatibility
 IE9+
 With [ieBetter](https://github.com/zhangxinxu/ieBetter.js) it would work in IE8-
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/weilao/weilao-deferred/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
